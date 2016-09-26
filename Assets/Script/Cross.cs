@@ -1,15 +1,17 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Cross : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public int GridX;
+    public int GridY;
+
+    void Start()
+    {
+        GetComponent<Button>().onClick.AddListener(() =>
+        {
+
+        });
+    }
 }
